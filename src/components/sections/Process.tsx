@@ -65,7 +65,7 @@ export default function Process() {
           </p>
         </div>
 
-        <div className="reveal" style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "48px", alignItems: "start" }} className="reveal grid grid-cols-1 lg:grid-cols-2 gap-12 reveal">
+        <div className="reveal grid grid-cols-1 lg:grid-cols-2 gap-12" style={{ alignItems: "start" }}>
           {/* Step list */}
           <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
             {steps.map((step, i) => (
